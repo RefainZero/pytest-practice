@@ -1,0 +1,7 @@
+
+打开Chrome浏览器
+== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
+
+输入账号密码
+
+点击登录进入系统

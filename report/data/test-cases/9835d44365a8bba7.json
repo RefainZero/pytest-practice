@@ -1,0 +1,121 @@
+{
+  "uid" : "9835d44365a8bba7",
+  "name" : "test_f",
+  "fullName" : "pytest-practice.test_assert#test_f",
+  "historyId" : "5ce54c7059e60dcd8c527747877348ff",
+  "time" : {
+    "start" : 1606637675082,
+    "stop" : 1606637675082,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nZeroDivisionError: division by zero",
+  "statusTrace" : "@pytest.mark.xfail(raises=ZeroDivisionError)\n    def test_f():\n>       1 / 0\nE       ZeroDivisionError: division by zero\n\npytest-practice\\test_assert.py:41: ZeroDivisionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1606637675070,
+      "stop" : 1606637675070,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_userinfo",
+    "time" : {
+      "start" : 1606637675081,
+      "stop" : 1606637675081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nZeroDivisionError: division by zero",
+    "statusTrace" : "@pytest.mark.xfail(raises=ZeroDivisionError)\n    def test_f():\n>       1 / 0\nE       ZeroDivisionError: division by zero\n\npytest-practice\\test_assert.py:41: ZeroDivisionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "29a87e94dc0b22c5",
+      "name" : "stdout",
+      "source" : "29a87e94dc0b22c5.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1606637675454,
+      "stop" : 1606637675455,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail(raises=<class 'ZeroDivisionError'>)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "pytest-practice"
+  }, {
+    "name" : "suite",
+    "value" : "test_assert"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-6C60QCJ"
+  }, {
+    "name" : "thread",
+    "value" : "15128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest-practice.test_assert"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail(raises=<class 'ZeroDivisionError'>)" ]
+  },
+  "source" : "9835d44365a8bba7.json",
+  "parameterValues" : [ ]
+}

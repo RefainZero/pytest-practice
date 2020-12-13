@@ -1,0 +1,6 @@
+====调用查询接口
+== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
+
+返回查询商品信息：商品名称： AJ男鞋 颜色：红色 鞋号： 44
+调用查询接口成功，返回查询商品信息
+====登录成功，返回用户名，token！

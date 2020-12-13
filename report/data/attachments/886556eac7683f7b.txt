@@ -1,0 +1,4 @@
+== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
+ 用户名：hameimei
+ 密码：2
+用户名为：hameimei 密码为：2

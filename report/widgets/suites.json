@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "066eec36b6cd5d02bff0cf24b1a2cdbb",
+    "name" : "pytest-practice",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 2,
+      "skipped" : 3,
+      "passed" : 80,
+      "unknown" : 0,
+      "total" : 90
+    }
+  }, {
+    "uid" : "9b80a04f88642a27b9e9e18109b27d27",
+    "name" : "test_getUserInfo",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "de390f706be12dee0ab6285ef3e274de",
+    "name" : "test_addcart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e5dc347d708e263025362bd84fe39995",
+    "name" : "test_loginout",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3cfbeb4c8ebb91e4d7a1fab98d50e55a",
+    "name" : "test_query",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

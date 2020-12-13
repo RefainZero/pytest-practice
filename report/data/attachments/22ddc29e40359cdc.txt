@@ -1,0 +1,2 @@
+== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
+生成新的数据组合为:[2 python 君]

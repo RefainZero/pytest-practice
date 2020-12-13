@@ -1,0 +1,122 @@
+{
+  "uid" : "34b4c21349bb8a07",
+  "name" : "test_myfuntion",
+  "fullName" : "pytest-practice.test_assertexception#test_myfuntion",
+  "historyId" : "00d8937a09e1d41d2460efee4ddf6034",
+  "time" : {
+    "start" : 1606637675082,
+    "stop" : 1606637675082,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "OSError: 指定异常类型",
+  "statusTrace" : "def test_myfuntion():\n        # 使用 with pytest.raises（异常类型）\n        with pytest.raises(SyntaxError):\n>           myfunction()\n\npytest-practice\\test_assertexception.py:13: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    def myfunction():\n        # 使用raise在测试方法中指定异常的类型\n>       raise IOError(\"指定异常类型\")\nE       OSError: 指定异常类型\n\npytest-practice\\test_assertexception.py:9: OSError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1606637675070,
+      "stop" : 1606637675070,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_userinfo",
+    "time" : {
+      "start" : 1606637675081,
+      "stop" : 1606637675081,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "OSError: 指定异常类型",
+    "statusTrace" : "def test_myfuntion():\n        # 使用 with pytest.raises（异常类型）\n        with pytest.raises(SyntaxError):\n>           myfunction()\n\npytest-practice\\test_assertexception.py:13: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\n    def myfunction():\n        # 使用raise在测试方法中指定异常的类型\n>       raise IOError(\"指定异常类型\")\nE       OSError: 指定异常类型\n\npytest-practice\\test_assertexception.py:9: OSError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "143041990fea1484",
+      "name" : "stdout",
+      "source" : "143041990fea1484.txt",
+      "type" : "text/plain",
+      "size" : 130
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1606637685461,
+      "stop" : 1606637685461,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "pytest-practice"
+  }, {
+    "name" : "suite",
+    "value" : "test_assertexception"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-6C60QCJ"
+  }, {
+    "name" : "thread",
+    "value" : "2312-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "pytest-practice.test_assertexception"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "34b4c21349bb8a07.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
+
+ E:\temp\pytest-of-DELL\pytest-25\popen-gw4\test_tempdir0
+====登录成功，返回用户名，token！
