@@ -1,5 +1,0 @@
-setup_class(self)：每个类之前执行一次,只执行一次
-== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
-正在执行B
-teardown_class(self)：每个类之后执行一次,只执行一次
-teardown_module()：在模块之后执行，且只执行一次

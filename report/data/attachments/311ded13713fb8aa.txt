@@ -1,5 +1,0 @@
-打开浏览器！！！
-== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
-
-我是第二个用例
-关闭浏览器！！！

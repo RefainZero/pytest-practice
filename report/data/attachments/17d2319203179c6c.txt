@@ -1,5 +1,0 @@
-setup_module():在模块最之前执行，且只执行一次
-== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
-setup_function():每个方法之前执行
-正在执行用例1
-teardown_function():每个方法之后执行

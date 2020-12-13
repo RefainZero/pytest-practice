@@ -1,6 +1,0 @@
-调用登录接口
-== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
-
-输入用户名：软件测试君
-输入密码：123456
-登录成功，传入多个fixture参数成功
