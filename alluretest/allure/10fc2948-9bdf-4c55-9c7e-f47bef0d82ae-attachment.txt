@@ -1,3 +1,0 @@
-调用登录接口
-== 每个用例都调用的外层fixture：打印用户名username：zhangsan 和token： ZXF3ZTEyMTIzMTIxYWUxcWUxYGAyYDJgYDIx ==
-jojo	1	登录成功的用例
