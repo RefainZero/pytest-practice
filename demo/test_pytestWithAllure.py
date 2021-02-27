@@ -36,35 +36,39 @@ class TestClass(object):
         用例描述：测试机器人回复功能
         """
 
-        # 获取参数
-        paras = vars()
-        # 报告中的环境参数，可用于必要环境参数的说明，相同的参数以后者为准
-        allure.environment(host="127.0.0.1", test_vars=paras)
-        # 关联的资料信息, 可在报告中记录保存必要的相关信息
-        allure.attach("用例参数", "{0}".format(paras))
         print(f"获取参数成功，输出：\n Url：{getParams['url']} \n 输入关键字：{getParams['keyWord']} \n 预期断言：{getParams['expected']}")
+        # 模拟客户端请求
+        content = getResult(getParams)
+        # 获取预期结果
+        expected = getParams['expected']
         with allure.step("获取输入参数"):  # 步骤1，step的参数将会打印到测试报告中
             allure.attach('请求路径', 'url')  # attach可以打印一些附加信息
             allure.attach('输入关键字', 'keyWord')
             allure.attach('预期结果', 'expected')
-        with allure.step("模拟客户端请求，返回结果"):  # 步骤2
+        with allure.step("模拟客户端输入，返回结果"):  # 步骤2
             pass
-        with allure.step("校验结果"):  # 步骤4
-            allure.attach('模拟客户端请求，返回结果', '期望结果')
-            allure.attach('模拟客户端请求，返回结果', '实际结果')
-        # 模拟客户端请求
-        content = self.getResult(getParams)
-        # 获取预期结果
-        expected = getParams['expected']
-        assert content == expected
+        with allure.step("校验结果"):  # 步骤3
+            allure.attach('机器人回复', '期望结果')
+            allure.attach('机器人回复', '实际结果')
+            assert content == expected
 
-    @staticmethod
-    def getResult(getParams):
-        # 请求url和参数
-        url = getParams['url'] + getParams['keyWord']
-        # 模拟客户端请求
-        req = requests.get(url)
-        json.loads(req.text)
-        map = req.json()
-        content = map['content']
-        return content
+    @allure.story('机器人会话中')
+    def test_edit_shopping_trolley(self):
+        pass
+
+    @pytest.mark.skipif(reason='本次不执行')
+    @allure.story('机器人没电了')
+    def test_delete_shopping_trolley(self):
+        pass
+
+
+@allure.step('模拟客户端请求')
+def getResult(getParams):
+    # 请求url和参数
+    url = getParams['url'] + getParams['keyWord']
+    # 模拟客户端请求
+    req = requests.get(url)
+    json.loads(req.text)
+    map = req.json()
+    content = map['content']
+    return content
